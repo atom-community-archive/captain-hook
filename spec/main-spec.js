@@ -6,7 +6,7 @@ describe('captain-hook', () => {
 
   beforeEach(() => {
     waitsForPromise(() => {
-      return atom.packages.activatePackage('gofmt').then((pack) => {
+      return atom.packages.activatePackage('captain-hook').then((pack) => {
         mainModule = pack.mainModule
       })
     })
