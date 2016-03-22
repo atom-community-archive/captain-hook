@@ -1,0 +1,41 @@
+{
+  "name": "captain-hook",
+  "description": "Hook into Atom's command and event lifecycle to run tools and collect messages.",
+  "keywords": [
+    "command",
+    "event",
+    "lifecycle",
+    "build",
+    "format",
+    "lint",
+    "test",
+    "run",
+    "debug"
+  ],
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "repository": "https://github.com/atom-community/captain-hook",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.5.3 <2.0.0"
+  },
+  "author": "Joe Fitzgerald <jfitzgerald@pivotal.io> (http://github.com/joefitzgerald)",
+  "homepage": "https://atom.io/packages/captain-hook",
+  "bugs": {
+    "url": "https://github.com/atom-community/captain-hook/issues"
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "babel-eslint": "^6.0.0-beta.6",
+    "eslint-config-standard": "^5.1.0",
+    "eslint-plugin-standard": "^1.3.2",
+    "eslint-plugin-promise": "^1.1.0"
+  },
+  "configSchema": {},
+  "standard": {
+    "globals": [
+      "atom",
+      "waitsForPromise"
+    ]
+  }
+}
